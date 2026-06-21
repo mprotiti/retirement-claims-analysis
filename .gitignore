@@ -1,11 +1,8 @@
-# Large files
-*.pbix
-*.xlsx
-*.csv
-*.zip
+# Ignore large data files EXCEPT project data
+# *.csv        ← REMOVE THIS LINE (we want our project CSV)
+# *.pbix       ← REMOVE THIS LINE (we want our project PBIX)
 
-# Power BI
-.pbi/
+# Power BI logs (ok to ignore)
 pbidesktop.log
 
 # IDE
