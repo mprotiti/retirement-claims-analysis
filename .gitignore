@@ -1,0 +1,28 @@
+# Large files
+*.pbix
+*.xlsx
+*.csv
+*.zip
+
+# Power BI
+.pbi/
+pbidesktop.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+*.tmp
+~*
